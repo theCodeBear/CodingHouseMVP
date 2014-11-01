@@ -13,7 +13,13 @@
 
     <!-- Bootstrap Core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Code Mirror Color Theme  -->
+    <link href="CodeMirror/theme/the-matrix.css" rel="stylesheet">
+    <link href="CodeMirror/theme/neo.css" rel="stylesheet">
+
     <link href="css/custom.css" rel="stylesheet">
+
     <link href="CodeMirror/lib/codemirror.css" rel="stylesheet">
 
     <!-- Custom CSS -->
@@ -44,7 +50,7 @@
               </div>
               <div class="modal-footer">
                 <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-                <button type="button" class="btn btn-primary">Save changes</button>
+                <button type="button" name="run" class="btn btn-primary">Run</button>
               </div>
             </div>
           </div>
@@ -70,7 +76,6 @@
     <script src="CodeMirror/mode/javascript/javascript.js"></script>
     <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
-    <script src = "js/main.js"></script>
     <script src="//www.parsecdn.com/js/parse-1.3.1.min.js"></script>
   </head>
 
@@ -79,11 +84,7 @@
   <body>
 
     <input type="text" name="email" placeholder="Email">
-
-    <script>
-      var myCodeMirror = CodeMirror(document.getElementById("modal"));
-
-    </script>
+    <script src = "js/main.js"></script>
   </body>
 
 </html>

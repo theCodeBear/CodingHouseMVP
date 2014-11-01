@@ -6,3 +6,14 @@
 textarea {
  resize:none;
 }
+
+.CodeMirror {
+  border: 3px solid gray;
+}
+
+#modal {
+  text-align: left;
+}
+
+
+.cm-s-neo .CodeMirror-gutters { background: #005; border-right: 4px solid #00F; }
