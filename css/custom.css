@@ -1,0 +1,8 @@
+.form-control {
+ width:40% !important;
+ margin:0 auto !important;
+}
+
+textarea {
+ resize:none;
+}
