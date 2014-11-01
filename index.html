@@ -14,6 +14,7 @@
     <!-- Bootstrap Core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="css/custom.css" rel="stylesheet">
+    <link href="CodeMirror/lib/codemirror.css" rel="stylesheet">
 
     <!-- Custom CSS -->
     <link href="css/stylish-portfolio.css" rel="stylesheet">
@@ -38,8 +39,8 @@
                 <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
                 <h4 class="modal-title" id="myModalLabel">Modal title</h4>
               </div>
-              <div class="modal-body">
-                ...
+              <div id="modal" class="modal-body">
+                
               </div>
               <div class="modal-footer">
                 <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
@@ -53,7 +54,7 @@
       </div>
     </div>
 
-    </script><!--Custom Fonts -->
+    <!--Custom Fonts -->
     <link href="font-awesome-4.1.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
     <link href="http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
 
@@ -65,6 +66,8 @@
     <![endif]-->
 
     <script src = "js/jquery.js"></script>
+    <script src="CodeMirror/lib/codemirror.js"></script>
+    <script src="CodeMirror/mode/javascript/javascript.js"></script>
     <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
     <script src = "js/main.js"></script>
@@ -77,6 +80,10 @@
 
     <input type="text" name="email" placeholder="Email">
 
+    <script>
+      var myCodeMirror = CodeMirror(document.getElementById("modal"));
+
+    </script>
   </body>
 
 </html>
