@@ -10,6 +10,16 @@ body {margin: 0;
 max-width: 800px;
 }
 
+.CodeMirror {
+  border: 3px solid gray;
+}
+
+#modal {
+  text-align: left;
+}
+
+.cm-s-neo .CodeMirror-gutters { background: #005; border-right: 4px solid #00F; }
+
 div#logo {
 background-image: url(../img/logo.png);
 background-repeat: no-repeat;
