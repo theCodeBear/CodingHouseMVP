@@ -1,10 +1,13 @@
-.form-control {
- width:40% !important;
- margin:0 auto !important;
+body {margin: 0;
+ background-image: url(../img/bg.jpg);
+ background-size: 1440px 800px;
+ background-repeat:no-repeat;
+ display: compact;
+ font: 13px/18px "Source Sans Pro","Helvetica Neue",Helvetica,Arial,sans-serif;
 }
 
-textarea {
- resize:none;
+.container {
+max-width: 800px;
 }
 
 .CodeMirror {
@@ -15,5 +18,34 @@ textarea {
   text-align: left;
 }
 
-
 .cm-s-neo .CodeMirror-gutters { background: #005; border-right: 4px solid #00F; }
+
+div#logo {
+background-image: url(../img/logo.png);
+background-repeat: no-repeat;
+height: 147px;
+width: 250px;
+margin: 0 auto;
+}
+
+.header {
+  border:none;
+}
+
+.jumbotron {
+border-bottom: 0;
+background: transparent;
+color: #fff;
+}
+
+.container .jumbotron {
+padding-right: 30px;
+padding-left: 30px;
+}
+
+.jumbotron h1 {
+margin: 0px;
+padding: 0px;
+font-size: 5.3em;
+font-weight: 700;  
+}
